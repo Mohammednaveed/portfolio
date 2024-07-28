@@ -8,8 +8,6 @@ body {
 
 header {
     background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    color: white;
-    padding: 2rem 0;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -23,13 +21,14 @@ header h1 {
 }
 
 header p {
+    margin: 5px;
     font-size: 1.2rem;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 nav ul li {
@@ -70,9 +69,8 @@ section ul li {
 
 footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
+    background-color: #00000000;
+    color: rgb(22, 241, 238);
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -189,4 +187,13 @@ img {
 .content.show {
     opacity: 1;
     transform: translateY(0);
+}
+.fa-linkedin{
+    color: #0876f4;
+}
+.fa-envelope{
+    color: #c70063;
+}
+.fa-phone{
+    color: black;
 }
