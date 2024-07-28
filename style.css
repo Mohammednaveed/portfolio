@@ -70,10 +70,10 @@ section ul li {
 footer {
     text-align: center;
     background-color: #00000000;
-    color: rgb(22, 241, 238);
+    color: rgb(0, 0, 0);
     position: fixed;
     width: 100%;
-    bottom: 0;
+    bottom: 0;  
     display: flex;
     justify-content: center;
     align-items: center;
